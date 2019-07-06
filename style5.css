@@ -1,0 +1,63 @@
+#formu{
+	text-align: left;
+	margin-right:250px;
+	margin-top: 75px;
+	margin-left: 250px;
+	font-family: arial;
+	color: #123456;
+}
+
+input[type="submit"]{
+	display:block;
+	margin:auto;
+}
+
+legend{
+	text-align:center;
+	color:#CE1515;
+}
+
+label{
+	display: inline-block;
+	float: left;
+	clear: left;
+	width: 110px;
+}
+
+#sale{
+	text-align:center;
+	color:#FF0000;
+	font-size:18;
+}
+
+footer{
+	font-size:10px;
+	text-align:right;
+}
+
+#erreur{
+	color:#FF0000;
+	font-size:12px;
+	margin-left:120px;
+}
+
+
+fieldset {
+	padding:10 20px 20px 40px;
+	margin-bottom:10px;
+	margin-right:0px;
+	border:1px solid #DF3F3F;
+	background-color: #E1E1E1;
+}
+
+
+
+h1{
+	text-align: center;
+	margin-top: 100px;
+	font-family: arial;
+	font-size: 30px;
+	font-weight: 800;
+	margin-top:50px;
+	color:#FF0000;
+}
