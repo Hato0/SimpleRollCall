@@ -70,17 +70,17 @@ Install the proper version for your OS version -> ```sh https://www.silabs.com/p
 ```sh
 https://github.com/Hato0/SimpleRollCall.git
 ```
-3. Execute the installation script
-```sh
-YourFoleder/install/InstallScript.sh
-```
+3. Put the public_html folder on /var/www
+
 4. Connect your ESP32 Correctly with screens and everything
 
 5. Change every ip adresse in code by yours proper adress (should me marked)
 
 6. Create your own DataBase.
 
-<!-- USAGE EXAMPLES -->
+7. Push the ino file on ESP32 by Arduino IDE
+
+
 ## Usage
 
 You simply have to start the Roll Call by scan the First QrCode and give the housing to student
