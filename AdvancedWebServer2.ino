@@ -33,8 +33,8 @@ SSD1306  display(0x3c, 21, 22);
 
 
 // Replace with your network credentials
-const char* ssid     = "Livebox-B76E";
-const char* password = "6175827A44428E1ACC5677C242";
+const char* ssid     = "Your Connection Name";
+const char* password = "Your Connection Password";
 
 // REPLACE with your Domain name and URL path or IP address with path
 const char* serverName = "http://192.168.1.94/public_html/linkcontrol.php";
