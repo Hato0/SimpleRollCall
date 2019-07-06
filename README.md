@@ -1,6 +1,7 @@
 [![Build Status][build-shield]][build-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br />
 <p align="center">
@@ -13,14 +14,14 @@
   <p align="center">
     Simple and Easy way to take roll call !
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Hato0/SimpleRollCall"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/Hato0/SimpleRollCall">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/Hato0/SimpleRollCall/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/Hato0/SimpleRollCall/issues">Request Feature</a>
   </p>
 </p>
 
@@ -96,7 +97,7 @@ You simply have to start the Roll Call by scan the First QrCode and give the hou
 
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Hato0/SimpleRollCall/issues) for a list of proposed features (and known issues).
 
 
 ## Contributing
