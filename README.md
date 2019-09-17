@@ -70,7 +70,7 @@ Install the proper version for your OS version -> ```sh https://www.silabs.com/p
 ```sh
 https://github.com/Hato0/SimpleRollCall.git
 ```
-3. Put the public_html folder on /var/www
+3. Put the public_html folder on the root of apache2 server
 
 4. Connect your ESP32 Correctly with screens and everything
 
