@@ -42,7 +42,7 @@ Students have to be connected locally with the system (at least the raspberry), 
 This project was made to conclude our third year in Engineering scool.
 
 ### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
 * [Arduino](https://www.arduino.cc)
 * [Web Languages](https://www.w3schools.com)
 
