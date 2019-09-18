@@ -37,7 +37,7 @@ const char* ssid     = "Your Connection Name";
 const char* password = "Your Connection Password";
 
 // REPLACE with your Domain name and URL path or IP address with path
-const char* serverName = "http://192.168.1.94/public_html/linkcontrol.php";
+const char* serverName = "http://RASPBERRY_IP_ADDRESS/public_html/linkcontrol.php";
 
 // Keep this API Key value to be compatible with the PHP code provided in the project page. 
 // If you change the apiKeyValue value, the PHP file /post-esp-data.php also needs to have the same key 
@@ -115,7 +115,7 @@ Serial.println("/");
 
       QRCode qrcode;
       uint8_t qrcodeData[qrcode_getBufferSize(SIZE)];
-qrcode_initText(&qrcode, qrcodeData,SIZE,SECURE, "192.168.1.94/public_html/Home_prof.html");
+qrcode_initText(&qrcode, qrcodeData,SIZE,SECURE, "RASPBERRY_IP_ADDRESS/public_html/Home_prof.html");
      
       for (uint8_t y = 0; y < qrcode.size; y++) {
             for (uint8_t x = 0; x < qrcode.size; x++) {
@@ -155,7 +155,7 @@ for(size_t i=0;i<taille;i++)
     filename+=acceptes[pos];
 }
   Serial.print(filename.c_str());
-  std::string adress ="192.168.1.94/r?url=";
+  std::string adress ="RASPBERRY_IP_ADDRESS/r?url=";
   adress += filename;
   
   if(WiFi.status()== WL_CONNECTED){
