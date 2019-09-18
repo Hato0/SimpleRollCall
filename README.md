@@ -80,6 +80,8 @@ https://github.com/Hato0/SimpleRollCall.git
 
 7. Push the ino file on ESP32 by Arduino IDE
 
+8. Replace YOUR_ESP32_IP_ADDRESS and RASPBERRY_IP_ADDRESS by yours on files : 404.php // envoie.php // AdvancedWebServer2.ino 
+
 
 ## Usage
 
