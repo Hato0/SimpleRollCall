@@ -37,7 +37,7 @@ if ($TD=="NULL"){
 
 if($result2=$conn->query($sqll)){
 	if (!($BoitierisOn=="TDSet")){
-	$fp = fsockopen("192.168.1.28", 80, $errno, $errstr, 30);	
+	$fp = fsockopen("YOUR_ESP32_IP_ADDRESS", 80, $errno, $errstr, 30);	
 	if (!$fp) {
 		echo "$errstr ($errno)<br />\n";
 	} else {
@@ -68,7 +68,7 @@ if($result2=$conn->query($sqll)){
 				prenom VARCHAR(20) NOT NULL )";
 if ($result2=$conn->query($sqll)){
 	if (!($BoitierisOn=="TDSet")){
-	$fp = fsockopen("192.168.1.28",80,$errno,$errstr,30);
+	$fp = fsockopen("YOUR_ESP32_IP_ADDRESS",80,$errno,$errstr,30);
 	if (!$fp){
 		echo "$errstr ($errno)<br />\n";
 	}else {
@@ -97,7 +97,7 @@ if($TP=="NULL" && !($TD=="NULL")) {
 				prenom VARCHAR(20) NOT NULL )";
 if ($result2=$conn->query($sqll)){
 	if (!($BoitierisOn=="TDSet")){
-	$fp = fsockopen("192.168.1.28",80,$errno,$errstr,30);
+	$fp = fsockopen("YOUR_ESP32_IP_ADDRESS",80,$errno,$errstr,30);
 	if (!$fp){
 		echo "$errstr ($errno)<br />\n";
 	}else {
