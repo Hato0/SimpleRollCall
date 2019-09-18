@@ -30,7 +30,7 @@ if ($res->num_rows==1){
 	echo "OK";
 	    $sqll = "DELETE from tableURL WHERE adresse='".$rdmURL."';";
 	        $conn->query($sqll);
-	     $fp = fsockopen("192.168.1.28", 80, $errno, $errstr, 30);
+	     $fp = fsockopen("YOUR_ESP32_IP_ADDRESS", 80, $errno, $errstr, 30);
 	        if (!$fp) {
 			        echo "$errstr ($errno)<br />\n";
 		} else {
